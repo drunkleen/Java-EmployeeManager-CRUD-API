@@ -1,6 +1,5 @@
 package com.drunkleen.crudapi.rest;
 
-import com.drunkleen.crudapi.dao.EmployeeDAO;
 import com.drunkleen.crudapi.entities.Employee;
 import com.drunkleen.crudapi.services.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
