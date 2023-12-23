@@ -3,6 +3,7 @@ package com.drunkleen.crudapi.entities;
 import jakarta.persistence.*;
 import lombok.Data;
 
+
 @Data
 @Entity
 @Table(name = "employee")
@@ -21,8 +22,8 @@ public class Employee {
     @Column(name = "email", nullable = false)
     private String email;
 
-
-    public Employee() {}
+    public Employee() {
+    }
 
     public Employee(String firstName, String lastName, String email) {
         this.firstName = firstName;
